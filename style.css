@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: #fff;
+    border-bottom: 2px solid #ddd;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ul1 {
+    list-style: none;
+    gap: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ul1 li a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul li a:hover {
+    color: red;
+}
+
+.knopka1 {
+    background-color: white;
+    color: red;
+    font-size: 17px;
+    border-radius: 10px;
+    padding: 10px 10px 13px 11px;
+    border: 1px solid red;
+
+}
+
+.rasm {
+    background: url('hero.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+}
+
+.hijama {
+    width: 2000px;
+    height: 100px;
+}
+
+.hijama {
+    padding: 50px 0;
+    background: #f9f9f9;
+}
+
+.hijama h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.hijama2 {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: start;
+}
+
+.hijama3 {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: end;
+}
+
+
+.hijama2 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+
+.sct {
+    padding: 50px 0;
+    background: aqua;
+    color: white;
+    width: auto;
+}
+
+.karta1 h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.karta2 {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.form1 {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form1 input,
+.form1 textarea,
+.form1 button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 400px;
+
+}
+
+.form1 button {
+    background-color: green;
+    color: white;
+}
+
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.ul2 {
+    list-style: none;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+
+.ul2 li a {
+    color: white;
+    text-decoration: none;
+
+}
